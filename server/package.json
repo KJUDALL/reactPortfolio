@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is the backend portion of my portfolio application. Server-side and API functionality will be written here eventually, and possibly even DB queries will be made. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo \"No build step required for JS\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KJUDALL/reactPortfolio.git"
+  },
+  "author": "kjudall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KJUDALL/reactPortfolio/issues"
+  },
+  "homepage": "https://github.com/KJUDALL/reactPortfolio#readme"
+}

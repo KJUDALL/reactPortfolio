@@ -1,0 +1,27 @@
+{
+  "name": "module12challenge",
+  "version": "1.0.0",
+  "description": "Full stack portfolio application. This is the root dir of my project and is where all the base structure will lie for my portfolio application. Running scripts here will build both the frontend and backend of the app. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:client & npm run start:server",
+    "start:client": "npm --prefix client start",
+    "start:server": "npm --prefix server start",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "npm --prefix client run build",
+    "build:server": "npm --prefix server run build",
+    "test": "npm run test:client && npm run test:server",
+    "test:client": "npm --prefix client test",
+    "test:server": "npm --prefix server test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KJUDALL/reactPortfolio.git"
+  },
+  "author": "kjudall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KJUDALL/reactPortfolio/issues"
+  },
+  "homepage": "https://github.com/KJUDALL/reactPortfolio#readme"
+}
