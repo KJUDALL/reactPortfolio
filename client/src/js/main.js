@@ -13,4 +13,21 @@
 import '../scss/styles.scss'
 
 // Import all of Bootstrap's JS
-import {Modal, Tooltip, Collapse, Dropdown, Alert, Button} from 'bootstrap'
+import { Modal, Tooltip, Collapse, Dropdown, Alert, Button } from 'bootstrap'
+
+import { BroswerRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
+
+function app() {
+    return (
+        <Router>
+            <Header />
+            <Routes>
+                <Route path='/' element={<AboutMe />} />
+                <Route path='/portfolio' element={<Portfolio />} />
+                <Route path='/contact' element={<Contact />} />
+                <Route path='/resume' element={<Resume />} />
+            </Routes>
+            <Footer />
+        </Router>
+    );
+};
