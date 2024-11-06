@@ -9,25 +9,15 @@
 // WHEN I am presented with the Resume section
 // THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 
-// Import our custom CSS
-import '../scss/styles.scss'
+import './styles.css'; // Import custom CSS
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-// Import all of Bootstrap's JS
-import { Modal, Tooltip, Collapse, Dropdown, Alert, Button } from 'bootstrap'
-
-import { BroswerRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
-
-function app() {
-    return (
-        <Router>
-            <Header />
-            <Routes>
-                <Route path='/' element={<AboutMe />} />
-                <Route path='/portfolio' element={<Portfolio />} />
-                <Route path='/contact' element={<Contact />} />
-                <Route path='/resume' element={<Resume />} />
-            </Routes>
-            <Footer />
-        </Router>
-    );
-};
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
+);
