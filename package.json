@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/KJUDALL/reactPortfolio/issues"
   },
-  "homepage": "https://github.com/KJUDALL/reactPortfolio#readme"
+  "homepage": "https://github.com/KJUDALL/reactPortfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "vite": "^5.4.10"
+  }
 }
