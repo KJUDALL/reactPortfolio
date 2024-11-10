@@ -26,6 +26,7 @@
   "homepage": "https://github.com/KJUDALL/reactPortfolio#readme",
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "react-router-dom": "^6.28.0",
     "vite": "^5.4.10"
   }
 }
