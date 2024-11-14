@@ -14,11 +14,11 @@ function App() {
         <Router>
             <Header />
             <Routes>
-                <Route path="*" element={<NotFound />} />
                 <Route path='/' element={<AboutMe />} />
                 <Route path='/portfolio' element={<Portfolio />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/resume' element={<Resume />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
             <Footer />
         </Router>
