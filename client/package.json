@@ -20,6 +20,7 @@
   "homepage": "https://github.com/KJUDALL/reactPortfolio#readme",
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "react": "^18.3.1"
+    "react": "^18.3.1",
+    "vite": "^5.4.11"
   }
 }
