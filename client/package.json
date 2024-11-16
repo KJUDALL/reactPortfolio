@@ -4,8 +4,9 @@
   "description": "Front-end portion of my portfolio application. HTML, CSS and TS will be used to write this code. ",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
+    "start": "vite preview",
     "build": "vite build",
+    "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
