@@ -1,12 +1,13 @@
 // Step 1. Central hub of application
 //Add imports to display in the App fx
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header.js';
-import Footer from './components/Footer.js';
-import AboutMe from './pages/AboutMe.js';
-import Portfolio from './pages/Portfolio.js';
-import Contact from './pages/Contact.js';
-import Resume from './pages/Resume.js';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import AboutMe from './pages/AboutMe.jsx';
+import Portfolio from './pages/Portfolio.jsx';
+import Contact from './pages/Contact.jsx';
+import Resume from './pages/Resume.jsx';
+import React from 'react';
 
 // This fx is to display all the routes/html using React
 function App() {

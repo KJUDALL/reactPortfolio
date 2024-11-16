@@ -19,3 +19,5 @@ function Navigation({sections, currentSection, onSectionClick}) {
         </nav>
     );
 }
+
+export default Navigation;

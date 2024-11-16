@@ -1,6 +1,7 @@
 //Step 2. Reusable component
 // import react
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
